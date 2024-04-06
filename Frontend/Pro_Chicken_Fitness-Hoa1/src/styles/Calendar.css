@@ -1,0 +1,67 @@
+/* Custom styles for the gym calendar */
+
+.calendar {
+  margin-top: 20px;
+}
+.day-blog {
+  border: 2px solid rgb(240, 241, 240);
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: rgb(243, 243, 243);
+}
+
+.day-header {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.add-event-btn {
+  border-radius: 10px;
+  background-color: #0984e3;
+  margin: 5px 0px;
+}
+
+.day-blog-content {
+  border-radius: 5px;
+  background-color: #e2eb98;
+  padding: 15px;
+  margin: 20px 0px;
+}
+
+.day-blog-content > div {
+  color: #0d0d0d;
+  /* border: 2px solid #332b1e; */
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.day-blog-content > h5 {
+  color: rgb(72, 91, 71);
+}
+
+.modal img {
+  width: 30px;
+  height: 30px;
+}
+
+.custom-checkbox + label {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#addExcerciseModal .custom-checkbox:checked + label {
+  background-color: #28a745; /* Change color when checked */
+  color: #fff; /* Text color when checked */
+  border: 1px solid #218838; /* Border color when checked */
+}
+
+#addMealModal .custom-checkbox:checked + label {
+  background-color: red; /* Change color when checked */
+  color: #fff; /* Text color when checked */
+  border: 1px solid red; /* Border color when checked */
+}
